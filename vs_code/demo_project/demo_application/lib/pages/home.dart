@@ -18,8 +18,11 @@ class _HomeState extends State<Home> {
           gradient: LinearGradient(
             colors: [
               Color(0xFF232FDA), // Correct usage of Color
-              Color(0xFF23DAF2)  // Added a second color for the gradient
-            ]
+              Color(0xFF23DAF2),  // Added a second color for the gradient
+              Color(0xFF09adfe)
+            ],
+            begin: Alignment.topLeft,
+            end: Alignment.topRight
           ),
         ),
         child: Column(
