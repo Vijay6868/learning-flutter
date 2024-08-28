@@ -26,7 +26,16 @@ class _HomeState extends State<Home> {
           ),
         ),
         child: Column(
-          children: [], // You can add children here
+          children: [
+            Text(
+              "Hello\nVijay",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold),
+              ),
+            
+          ], // You can add children here
         ),
       ),
     );
